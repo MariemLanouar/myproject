@@ -1,0 +1,7 @@
+.pageInscri{
+    display: flex;
+    flex-direction: column;
+}
+.footerStyle{
+    flex: 1;
+}

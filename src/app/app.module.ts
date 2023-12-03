@@ -12,6 +12,12 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ConnexionComponent } from './connexion/connexion.component';
 import { AboutComponent } from './accueil/about/about.component';
 import { LoginComponent } from './connexion/login/login.component';
+import { InscriptionEntrepriseComponent } from './inscription-entreprise/inscription-entreprise.component';
+import { EntrepriseForumComponent } from './inscription-entreprise/entreprise-forum/entreprise-forum.component';
+import { CreerCompteComponent } from './creer-compte/creer-compte.component';
+import { TypeCompteComponent } from './creer-compte/type-compte/type-compte.component';
+import { InscriptionCandidatComponent } from './inscription-candidat/inscription-candidat.component';
+import { CandidatForumComponent } from './inscription-candidat/candidat-forum/candidat-forum.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +28,14 @@ import { LoginComponent } from './connexion/login/login.component';
     FooterComponent,
     ConnexionComponent,
     AboutComponent,
-    LoginComponent
+    LoginComponent,
+    InscriptionEntrepriseComponent,
+    EntrepriseForumComponent,
+    CreerCompteComponent,
+    TypeCompteComponent,
+    InscriptionCandidatComponent,
+    CandidatForumComponent,
+ 
   ],
   imports: [
     BrowserModule,
